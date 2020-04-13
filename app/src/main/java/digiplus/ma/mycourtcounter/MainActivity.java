@@ -39,14 +39,19 @@ public class MainActivity extends AppCompatActivity {
         ScoreTeamB = ScoreTeamB+ 1;
         displayForTeamB(ScoreTeamB);
     }
-
+    public void ResetScore(View view){
+        ScoreTeamA = 0;
+        ScoreTeamB = 0;
+        displayForTeamA(ScoreTeamA);
+        displayForTeamB(ScoreTeamB);
+    }
 
     private void displayForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
-        scoreView.setText(String.valueOf(score));
+        TextView a_scoreView = (TextView) findViewById(R.id.team_a_score);
+        a_scoreView.setText(String.valueOf(score));
     }
     private void displayForTeamB(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
-        scoreView.setText(String.valueOf(score));
+        TextView b_scoreView = (TextView) findViewById(R.id.team_b_score);
+        b_scoreView.setText(String.valueOf(score));
     }
 }
