@@ -68,12 +68,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:text="Team A"
+            android:text="Team B"
             android:textSize="20sp" />
 
         <TextView
             android:gravity="center_horizontal"
-            android:id="@+id/team_a_score"
+            android:id="@+id/team_b_score"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:onClick="addThreeForTeamA"
+            android:onClick="addThreeForTeamB"
             android:padding="20dp"
             android:text="+3 Points" />
 
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:onClick="addTwoForTeamA"
+            android:onClick="addTwoForTeamB"
             android:padding="20dp"
             android:text="+2 Points" />
 
@@ -100,7 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:onClick="addOneForTeamA"
+            android:onClick="addOneForTeamB"
             android:padding="20dp"
             android:text="Free Throw" />
 
